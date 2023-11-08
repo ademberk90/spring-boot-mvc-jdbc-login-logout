@@ -36,7 +36,7 @@ Just you need is add sql connection properties in application.properties file. Y
 
 #### Admin's Home Page
 
-![list](https://raw.githubusercontent.com/ademberk90/spring-boot-mvc-jdbc-login-logout/main/images/admin.PNG)
+![list](https://raw.githubusercontent.com/ademberk90/spring-boot-mvc-jdbc-login-logout/main/images/susan.PNG)
 
 
 #### Logout Page
