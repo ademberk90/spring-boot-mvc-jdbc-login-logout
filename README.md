@@ -19,9 +19,11 @@ Just you need is add sql connection properties in application.properties file. Y
 
 You dont have to use bcrypt password. You can use plain text also. For that just change the sql scripts when u created users. 
 
-> FROM: ('john','{bcrypt}$2a$12$mcto7IG13e4gbUazaHqsqezTKjnyJfzzaeM/HYOhYZc2E56.eq3kK',1)
+>FROM: 
+>('john','{bcrypt}$2a$12$mcto7IG13e4gbUazaHqsqezTKjnyJfzzaeM/HYOhYZc2E56.eq3kK',1)
 >
-> TO: ('john','{noop}test123',1)
+>TO:
+>('john','{noop}test123',1)
 
 ### BCRYPT PASSWORD
 
