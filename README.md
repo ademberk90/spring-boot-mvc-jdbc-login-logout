@@ -17,6 +17,17 @@ In this repo you can find Sql script that make your test easier. Just copy, past
 
 Just you need is add sql connection properties in application.properties file. You can see my test connections configurations.
 
+You dont have to use bcrypt password. You can use plain text also. For that just change the sql scripts when u created users. 
+
+> FROM: ('john','{bcrypt}$2a$12$mcto7IG13e4gbUazaHqsqezTKjnyJfzzaeM/HYOhYZc2E56.eq3kK',1)
+> TO: ('john','{noop}test123',1)
+
+### BCRYPT PASSWORD
+
+We can create bcrypted text using [Bcrypt Generator](https://bcrypt-generator.com/). I created **test123** password for all user. You can change them what you want.
+
+Also 
+
 ### Preview
 
 #### Login Page
